@@ -1,0 +1,173 @@
+/*Page All*/
+* {
+    font-size: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(imgs/background.png);
+    z-index: 1;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Navbar*/
+.banner-image {
+    background-image: url(imgs/banner.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100%;
+}
+
+/*Content*/
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general {
+    width: 800px;
+    height: 800px;
+    border: 4px solid grey;
+}
+
+/*Critics Reviews*/
+.banner-container {
+    background-image: url(imgs/bannerbackground.png);
+    background-repeat: repeat-x;
+    background-size: auto 50px;
+}
+
+.rotten {
+    background-image: url(imgs/rottenbackground.png);
+    background-repeat: repeat-x;
+    height: 83px;
+    width: 550px;
+}
+
+.overall-rating {
+    margin-top: 25px;
+    margin-left: 10px;
+    position: absolute;
+    color: red;
+    font-weight: 400;
+    font-size: 48px;
+    background: transparent;
+}
+
+.reviews-total {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 130px;
+    color: white;
+    background: transparent;
+}
+
+.columns {
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 47%;
+    margin: 2%;
+}
+
+.column .row {
+    background-color: #E1D697;
+    border: 2px solid grey;
+    margin-bottom: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+/*Users Reviews*/
+.column .row img {
+    margin-right: 5px;
+    float: left;
+}
+
+.column .row .quote {
+    font-weight: bold;
+}
+
+.quote-reviewer-info {
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.quote-reviewer-info img {
+    margin-right: 5px;
+    display: block;
+}
+
+.quote-reviewer-publication span {
+    font-style: italic;
+}
+
+.info {
+    margin-left: 40px;
+    margin-top: 4px;
+    position: absolute;
+    flex-direction: column;
+}
+
+.info span {
+    flex-direction: column;
+}
+
+/* Section Right - > General Overview*/
+.section-right {
+    width: 250px;
+    background-color: #A2B964;
+    height: 800px;
+    float: right;
+    position: relative;
+}
+
+.movie-definitions {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+dl * {
+    margin-bottom: 1em;
+}
+
+dl dd {
+    margin-left: 1em
+}
+
+.definition-term {
+    font-weight: bold;
+}
+
+.rotten-footer {
+    background-color: #A2B964;
+    height: 5px;
+    width: 800px;
+    margin-top: 702px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*check */
+.check {
+    float: right;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+}
